@@ -1,0 +1,96 @@
+/*styling with css*/
+body{
+    margin: 0;
+    position: relative;
+    height:max-content;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    padding: 10px;
+    background-repeat: no-repeat;
+}
+/* adding background image of the poster*/
+body > div {
+    background-image:url(../img/poster.jpg);
+    background-size:cover; 
+    background-position: center; 
+    width: 1000px ;
+    height: 700px;
+}
+/* adjusting the header for polished look*/
+body > main > section > h1 {
+    text-align: center;
+    color: #E5CC8C;
+    position: absolute;
+    top:285px ;
+    left: 350px;   
+    font-size: 130px;
+    
+}
+div{
+    text-align: center;
+}
+body > main > section > h1 > a{
+    color: #E5CC8C;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 8px;
+}
+*{
+    color: white;
+}
+/*styling the main text */
+main > div{
+    position: absolute;
+    top: 19px;
+    left: 610px;
+    font-family: 'urbanist', sans-serif;
+    
+    font-size: 33px;
+}
+body > main > div > a{
+    color: lemonchiffon;
+    font-family: 'Urbanist', sans-serif;
+}
+main > section > div:nth-child(1)
+{
+    position: absolute;
+    top: 65px;
+    left:350px;
+    font-size: 16px;
+    letter-spacing: 6px;
+    color: #FEF3BB;
+    font-family: 'Railway',sans-serif;
+    
+}
+a{
+    text-decoration: none;
+}
+/*  */
+main > section > div:nth-child(2){
+    position: absolute;
+    top:375px;
+    left: 450px;
+    font-family: 'Railway',sans-serif;
+    letter-spacing: 2px;
+    font-size:15px;
+    color: #FEF3BB;
+}
+body > main > section > p:nth-child(3) > b{
+    position: absolute;
+    top: 390px;
+    left: 420px;
+    font-family: 'Railway', sans-serif;
+    color:#FEF3BB;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+/*  */
+body > main > section > p:nth-child(5){
+    position: absolute;
+    top: 510px;
+    left: 450px;
+    font-family: 'Railway',sans-serif;
+    font-size: 15px;
+    letter-spacing: 4px;
+    color: #FEF3BB;
+}
